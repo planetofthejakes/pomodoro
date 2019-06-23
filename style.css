@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    /* backup background */
+    background: coral;
+    /* place background in html */
+    background: linear-gradient(360deg,#DB9658 15%,#F7C89B 50%, #A27A84 85%);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; 
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* container for all info on page */
+.timer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* offset top and left to perfectly center */
+    transform: translate(-50%, -50%);
+    min-width: 750px;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* button navigation */
+.timer-selection {
+    display: flex;
+}
+
+.timer-selection > * {
+    flex: 1;
+    border: 0;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.timer-button {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(219, 160, 107);
+    color: white;
+    cursor: pointer;
+}
+
+.timer-button:hover {
+    background: #A27A84;
+    color: white;
+    transform: scale(1.1); 
+    /* text-shadow: 0 0.5px 1px #F7C89B; */
+}
+
+.timer-button:active {
+    background: #F7C89B;
+    color: black;
+}
+
+.timer-selection input {
+    text-align: center;
+}
+
+/* form and input */
+form[name="minutes"] {
+    padding: 0;
+    display: flex;
+    flex: 1;
+}
+
+input[name='mins'] {
+    border: 0;
+    padding: 1rem;
+}
+
+/* timer display */
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.display h1 {
+    font-size: 15rem;
+    color: white;
+    padding-bottom: 53px;
+    animation: glow 12s infinite; 
+    /* remove above on click of button or submit input */
+}
+
+/* keyframes for animation */
+@keyframes glow {
+    0% {
+        color: #DB9658;
+    }
+    25% {
+        color: #F7C89B;
+    }
+    50% {
+        color: #A27A84;
+    }
+    75% {
+        color: #F7C89B;
+    }
+    100% {
+        color: #DB9658;
+    }
+}
