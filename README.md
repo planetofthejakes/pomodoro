@@ -9,7 +9,7 @@ Trust the process:
 * 25 minutes on 
     - no interruptions, deep focus
 * 5 minutes off 
-    - reward yourself with donuts, memes, coffee, stretching, staring at a wall
+    - reward yourself with snacks, donuts, memes, coffee, stretching, staring at a wall
 
 ## Ideology
 
