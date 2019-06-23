@@ -13,7 +13,7 @@ Trust the process:
 
 ## Ideology
 
-Your brain has two modes, [_focused and diffused_][2]. Whenever you are learning something, you must allow your brain to transition between these modes in order to allow the synoptic connections to form. 
+Your brain has two modes, [_focused and diffused_][2]. Whenever you are learning something, you must allow your brain to transition between these modes in order to allow the synaptic connections to form. 
 
 Think of the focus mode as building a brick wall, stacking new bricks and adding the glue in between. The diffuse mode, when you take a step back, allows the glue to dry and hold the brick wall together instead crumbling away. 
 
